@@ -88,7 +88,6 @@ Currently **189 helpers** in **20 categories**:
 * **[collection](#collection)** ([code](lib/collection.js) | [unit tests](test/collection.js))
 * **[comparison](#comparison)** ([code](lib/comparison.js) | [unit tests](test/comparison.js))
 * **[date](#date)** ([code](lib/date.js) | [unit tests](test/date.js))
-* **[fs](#fs)** ([code](lib/fs.js) | [unit tests](test/fs.js))
 * **[i18n](#i18n)** ([code](lib/i18n.js) | [unit tests](test/i18n.js))
 * **[inflection](#inflection)** ([code](lib/inflection.js) | [unit tests](test/inflection.js))
 * **[math](#math)** ([code](lib/math.js) | [unit tests](test/math.js))
@@ -179,14 +178,6 @@ Visit the: [code](lib/date.js) | [unit tests](test/date.js) | [issues](https://g
 * **[year](#year)** ([code](lib/date.js#L15) | [no tests])
 * **[date](#date)** ([code](lib/date.js#Lundefined) | [no tests])
 * **[moment](#moment)** ([code](lib/date.js#L24) | [no tests])
-
-### [fs helpers](#fs)
-
-Visit the: [code](lib/fs.js) | [unit tests](test/fs.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+fs+helpers))
-
-* **[fileSize](#fileSize)** ([code](lib/fs.js#L14) | [no tests])
-* **[read](#read)** ([code](lib/fs.js#L29) | [tests](test/fs.js#L16))
-* **[readdir](#readdir)** ([code](lib/fs.js#L42) | [tests](test/fs.js#L23))
 
 ### [i18n helpers](#i18n)
 
