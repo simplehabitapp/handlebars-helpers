@@ -85,17 +85,12 @@ var math = helpers.math({
 Currently **189 helpers** in **20 categories**:
 
 * **[array](#array)** ([code](lib/array.js) | [unit tests](test/array.js))
-* **[code](#code)** ([code](lib/code.js) | [unit tests](test/code.js))
 * **[collection](#collection)** ([code](lib/collection.js) | [unit tests](test/collection.js))
 * **[comparison](#comparison)** ([code](lib/comparison.js) | [unit tests](test/comparison.js))
 * **[date](#date)** ([code](lib/date.js) | [unit tests](test/date.js))
 * **[fs](#fs)** ([code](lib/fs.js) | [unit tests](test/fs.js))
-* **[html](#html)** ([code](lib/html.js) | [unit tests](test/html.js))
 * **[i18n](#i18n)** ([code](lib/i18n.js) | [unit tests](test/i18n.js))
 * **[inflection](#inflection)** ([code](lib/inflection.js) | [unit tests](test/inflection.js))
-* **[logging](#logging)** ([code](lib/logging.js) | [unit tests](test/logging.js))
-* **[markdown](#markdown)** ([code](lib/markdown.js) | [unit tests](test/markdown.js))
-* **[match](#match)** ([code](lib/match.js) | [unit tests](test/match.js))
 * **[math](#math)** ([code](lib/math.js) | [unit tests](test/math.js))
 * **[misc](#misc)** ([code](lib/misc.js) | [unit tests](test/misc.js))
 * **[number](#number)** ([code](lib/number.js) | [unit tests](test/number.js))
@@ -139,14 +134,6 @@ Visit the: [code](lib/array.js) | [unit tests](test/array.js) | [issues](https:/
 * **[withLast](#withLast)** ([code](lib/array.js#L727) | [tests](test/array.js#L428))
 * **[withSort](#withSort)** ([code](lib/array.js#L766) | [tests](test/array.js#L442))
 * **[unique](#unique)** ([code](lib/array.js#L816) | [tests](test/array.js#L483))
-
-### [code helpers](#code)
-
-Visit the: [code](lib/code.js) | [unit tests](test/code.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+code+helpers))
-
-* **[embed](#embed)** ([code](lib/code.js#L23) | [tests](test/code.js#L10))
-* **[gist](#gist)** ([code](lib/code.js#L45) | [tests](test/code.js#L62))
-* **[jsfiddle](#jsfiddle)** ([code](lib/code.js#L60) | [tests](test/code.js#L69))
 
 ### [collection helpers](#collection)
 
@@ -201,18 +188,6 @@ Visit the: [code](lib/fs.js) | [unit tests](test/fs.js) | [issues](https://githu
 * **[read](#read)** ([code](lib/fs.js#L29) | [tests](test/fs.js#L16))
 * **[readdir](#readdir)** ([code](lib/fs.js#L42) | [tests](test/fs.js#L23))
 
-### [html helpers](#html)
-
-Visit the: [code](lib/html.js) | [unit tests](test/html.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+html+helpers))
-
-* **[attr](#attr)** ([code](lib/html.js#L23) | [tests](test/html.js#L13))
-* **[css](#css)** ([code](lib/html.js#L45) | [tests](test/html.js#L21))
-* **[js](#js)** ([code](lib/html.js#L89) | [tests](test/html.js#L69))
-* **[sanitize](#sanitize)** ([code](lib/html.js#L121) | [tests](test/html.js#L98))
-* **[ul](#ul)** ([code](lib/html.js#L135) | [tests](test/html.js#L108))
-* **[ol](#ol)** ([code](lib/html.js#L154) | [tests](test/html.js#L115))
-* **[thumbnailImage](#thumbnailImage)** ([code](lib/html.js#L176) | [tests](test/html.js#L122))
-
 ### [i18n helpers](#i18n)
 
 Visit the: [code](lib/i18n.js) | [unit tests](test/i18n.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+i18n+helpers))
@@ -225,37 +200,6 @@ Visit the: [code](lib/inflection.js) | [unit tests](test/inflection.js) | [issue
 
 * **[inflect](#inflect)** ([code](lib/inflection.js#L30) | [tests](test/inflection.js#L9))
 * **[ordinalize](#ordinalize)** ([code](lib/inflection.js#L58) | [tests](test/inflection.js#L22))
-
-### [logging helpers](#logging)
-
-Visit the: [code](lib/logging.js) | [unit tests](test/logging.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+logging+helpers))
-
-* **[log](#log)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[ok](#ok)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[success](#success)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[info](#info)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[warning](#warning)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[warn](#warn)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[error](#error)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[danger](#danger)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[bold](#bold)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[_debug](#_debug)** ([code](lib/logging.js#Lundefined) | [no tests])
-* **[_inspect](#_inspect)** ([code](lib/logging.js#Lundefined) | [no tests])
-
-### [markdown helpers](#markdown)
-
-Visit the: [code](lib/markdown.js) | [unit tests](test/markdown.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+markdown+helpers))
-
-* **[markdown](#markdown)** ([code](lib/markdown.js#Lundefined) | [tests](test/markdown.js#L10))
-* **[md](#md)** ([code](lib/markdown.js#L55) | [tests](test/markdown.js#L18))
-
-### [match helpers](#match)
-
-Visit the: [code](lib/match.js) | [unit tests](test/match.js) | [issues](https://github.com/helpers/handlebars-helpers/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+match+helpers))
-
-* **[match](#match)** ([code](lib/match.js#L23) | [tests](test/match.js#L13))
-* **[isMatch](#isMatch)** ([code](lib/match.js#L47) | [tests](test/match.js#L61))
-* **[mm](#mm)** ([code](lib/match.js#L56) | [no tests])
 
 ### [math helpers](#math)
 
