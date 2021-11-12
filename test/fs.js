@@ -1,7 +1,7 @@
 'use strict';
 
 require('mocha');
-var fs = require('fs');
+var fs = require('react-native-fs');
 var path = require('path');
 var assert = require('assert');
 var hbs = require('handlebars').create();

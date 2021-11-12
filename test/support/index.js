@@ -1,6 +1,6 @@
 'use strict';
 
-var fs = require('fs');
+var fs = require('react-native-fs');
 
 /**
  * Expose `utils`

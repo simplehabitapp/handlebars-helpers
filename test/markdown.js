@@ -2,7 +2,7 @@
 
 require('mocha');
 var assert = require('assert');
-var fs = require('fs');
+var fs = require('react-native-fs');
 var hbs = require('handlebars').create();
 var helpers = require('..');
 helpers.markdown({handlebars: hbs});

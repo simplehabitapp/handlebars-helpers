@@ -24,7 +24,7 @@ module.exports = function helpers(groups, options) {
   }
 
   options = options || {};
-  var hbs = options.handlebars || options.hbs || require('handlebars');
+  var hbs = options.handlebars || options.hbs || require('react-native-handlebars');
   define(module.exports, 'handlebars', hbs);
 
   if (groups) {
@@ -47,7 +47,7 @@ module.exports = function helpers(groups, options) {
 forIn(lib, function(group, key) {
   define(module.exports, key, function(options) {
     options = options || {};
-    var hbs = options.handlebars || options.hbs || require('handlebars');
+    var hbs = options.handlebars || options.hbs || require('react-native-handlebars');
     define(module.exports, 'handlebars', hbs);
     hbs.registerHelper(group);
     return hbs.helpers;
