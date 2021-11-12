@@ -74,6 +74,7 @@
     "arr-flatten": "^1.1.0",
     "array-sort": "^0.1.4",
     "define-property": "^1.0.0",
+    "extend-shallow": "^2.0.1",
     "falsey": "^0.3.2",
     "for-in": "^1.0.2",
     "for-own": "^1.0.0",
@@ -86,15 +87,14 @@
     "is-even": "^1.0.0",
     "is-glob": "^4.0.0",
     "is-number": "^4.0.0",
+    "isobject": "^3.0.0",
     "kind-of": "^6.0.0",
     "micromatch": "^3.1.4",
     "react-native-handlebars": "^5.0.0-alpha.1",
-    "relative": "^3.0.2",
     "striptags": "^3.1.0",
     "to-gfm-code-block": "^0.1.1",
-    "year": "^0.2.1",
-    "extend-shallow": "^2.0.1",
-    "isobject": "^3.0.0"
+    "verb": "^0.8.10",
+    "year": "^0.2.1"
   },
   "devDependencies": {
     "engine-handlebars": "^0.8.2",
@@ -153,7 +153,7 @@
     ],
     "layout": "default",
     "copyright": {
-      "start": "2013"
+      "start": "2021"
     },
     "plugins": [
       "gulp-format-md"

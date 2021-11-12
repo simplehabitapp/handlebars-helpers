@@ -4,13 +4,13 @@
 
 You might also be interested in [template-helpers](https://github.com/jonschlinkert/template-helpers).
 
-- [Install](#install)
-- [Browser usage](#browser-usage)
-- [Usage](#usage)
-- [Helpers](#helpers)
-- [Utils](#utils)
-- [History](#history)
-- [About](#about)
+* [Install](#install)
+* [Browser usage](#browser-usage)
+* [Usage](#usage)
+* [Helpers](#helpers)
+* [Utils](#utils)
+* [History](#history)
+* [About](#about)
 
 ## Install
 
@@ -3019,14 +3019,12 @@ Generate a random number
 ## [v0.10.0](https://github.com/helpers/handlebars-helpers/compare/v0.9.0...v0.10.0) - 2017-11-17
 
 **changes**
-
 * adds `unique` to array helpers
 * updates `css` helper to ensure that path.join() is not called on an absolute URL.
 
 ## [v0.9.0](https://github.com/helpers/handlebars-helpers/compare/v0.8.4...v0.9.0) - 2017-07-03
 
 **changes**
-
 * all unit tests now use assert instead of should
 * remove `fileSize` helper in favor of new `bytes` helper, which does the same thing, but returns `B` instead of `byte` or `bytes`.
 * JSONParse helper is no longer a block helper. It now returns an object, which can be used as a subexpression to achieve the same behavior as before.
@@ -3052,13 +3050,11 @@ Generate a random number
 ## [v0.8.4](https://github.com/helpers/handlebars-helpers/compare/v0.8.3...v0.8.4) - 2017-07-03
 
 **changes**
-
 * removes strlen helper in favor of fixing the length helper
 
 ## [v0.8.3](https://github.com/helpers/handlebars-helpers/compare/v0.8.2...v0.8.3) - 2017-07-03
 
 **changes**
-
 * adds strlen helper
 * adds itemAt helper
 * clean up code comments for array helpers
@@ -3066,14 +3062,12 @@ Generate a random number
 ## [v0.8.2](https://github.com/helpers/handlebars-helpers/compare/v0.8.1...v0.8.2) - 2017-03-30
 
 **changes**
-
 * documentation updates
 * fixes md helper to use sync by default
 
 ## [v0.8.1](https://github.com/helpers/handlebars-helpers/compare/v0.8.0...v0.8.1) - 2017-03-30
 
 **changes**
-
 * fixes sorting in withSort helper. see https://github.com/helpers/handlebars-helpers/pull/245
 * adds toPath helper
 * handle null inputs in number helpers
@@ -3082,27 +3076,23 @@ Generate a random number
 ## [v0.8.0](https://github.com/helpers/handlebars-helpers/compare/v0.7.6...v0.8.0) - 2017-01-25
 
 **changes**
-
 * handle string arguments in list helpers
 * adds JSONParse helper as an alias for parseJSON
 
 ## [v0.7.6](https://github.com/helpers/handlebars-helpers/compare/v0.7.0...v0.7.6) - 2017-01-08
 
 **changes**
-
 * fixes markdown helpers. see https://github.com/helpers/handlebars-helpers/pull/226
 * documentation improvements and other minor fixes
 
 ## [v0.7.0](https://github.com/helpers/handlebars-helpers/compare/v0.6.0...v0.7.0) - 2016-07-16
 
 **changes**
-
 * The [or](#or) helper can now take a variable number of arguments
 
 ## [v0.6.0](https://github.com/helpers/handlebars-helpers/compare/v0.3.3...v0.6.0) - 2016-05-13
 
 **changes**
-
 * the main export is now a function that takes a name or array of names of helper types to load. Example `helpers(['string', 'array'])` will load only the `string` and `array` helpers
 * helper types can alternatively be accessed as methods. example - `helpers.path()` will return all of the path helpers.
 * handlebars may be provided by the user. if not provided it will fall back to the `handlebars-helpers`  handlebars
@@ -3113,105 +3103,88 @@ Generate a random number
 ## [v0.3.3](https://github.com/helpers/handlebars-helpers/compare/v0.3.2...v0.3.3) - 2013-09-03
 
 **changes**
-
 * Adds fileSize helper.
 * Adds startsWith helper.
 
 ## [v0.3.2](https://github.com/helpers/handlebars-helpers/compare/v0.3.0...v0.3.2) - 2013-08-20
 
 **changes**
-
 * Adds glob helper.
 
 ## [v0.3.0](https://github.com/helpers/handlebars-helpers/compare/v0.2.4...v0.3.0) - 2013-07-30
 
 **changes**
-
 * The project has been refactored, cleaned up, and full documentation has bee put up at http://assemble.io
 
 ## [v0.2.4](https://github.com/helpers/handlebars-helpers/compare/v0.2.3...v0.2.4) - 2013-05-11
 
 **changes**
-
 * Adding object globbing utility functions to be used in helpers later.
 
 ## [v0.2.3](https://github.com/helpers/handlebars-helpers/compare/v0.2.0...v0.2.3) - 2013-05-11
 
 **changes**
-
 * File globbing added to some helpers. Including md and some file helpers.
 
 ## [v0.2.0](https://github.com/helpers/handlebars-helpers/compare/v0.1.32...v0.2.0) - 2013-05-07
 
 **changes**
-
 * A bunch of new tests for markdown and special helpers.
 * Refactored most of the rest of the helpers to separate functions from Handlebars registration.
 
 ## [v0.1.32](https://github.com/helpers/handlebars-helpers/compare/v0.1.31...v0.1.32) - 2013-05-02
 
 **changes**
-
 * Updates utils and a number of helpers, including value, property, and stringify.
 
 ## [v0.1.31](https://github.com/helpers/handlebars-helpers/compare/v0.1.30...v0.1.31) - 2013-04-21
 
 **changes**
-
 * Fixes relative helper
 
 ## [v0.1.30](https://github.com/helpers/handlebars-helpers/compare/v0.1.25...v0.1.30) - 2013-04-20
 
 **changes**
-
 * Refactoring helpers-collection module to separate the functions from the Handlebars helper registration process.
 
 ## [v0.1.25](https://github.com/helpers/handlebars-helpers/compare/v0.1.21...v0.1.25) - 2013-04-16
 
 **changes**
-
 * Adding defineSection and renderSection helpers to try to get sections populated in a layout from the page.
 
 ## [v0.1.21](https://github.com/helpers/handlebars-helpers/compare/v0.1.20...v0.1.21) - 2013-04-07
 
 **changes**
-
 * Add markdown helpers back, add more tests.
 
 ## [v0.1.20](https://github.com/helpers/handlebars-helpers/compare/v0.1.11...v0.1.20) - 2013-04-06
 
 **changes**
-
 * Generalized helpers structure, externalized utilities.
 
 ## [v0.1.11](https://github.com/helpers/handlebars-helpers/compare/v0.1.10...v0.1.11) - 2013-04-05
 
 **changes**
-
 * New authors and gist helpers, general cleanup and new tests.
 
 ## [v0.1.10](https://github.com/helpers/handlebars-helpers/compare/v0.1.8...v0.1.10) - 2013-04-04
 
 **changes**
-
 * Externalized utility javascript from helpers.js
 
 ## [v0.1.8](https://github.com/helpers/handlebars-helpers/compare/v0.1.7...v0.1.8) - 2013-03-28
 
 **changes**
-
 * Gruntfile updated with mocha tests for 71 helpers, bug fixes.
 
 ## [v0.1.7](https://github.com/helpers/handlebars-helpers/compare/v0.1.3...v0.1.7) - 2013-03-18
 
 **changes**
-
 * New path helper 'relative', for resolving relative path from one absolute path to another.
 
 ## [v0.1.3](https://github.com/helpers/handlebars-helpers/compare/v0.1.2...v0.1.3) - 2013-03-16
 
 **changes**
-
 * New helpers, 'formatPhoneNumber' and 'eachProperty'
 
 ## [v0.1.2](https://github.com/helpers/handlebars-helpers/compare/v0.1.0...v0.1.2) - 2013-03-15
@@ -3229,10 +3202,9 @@ Generate a random number
 ## About
 
 ### Related projects
-
-* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects… [more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble "Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit")
-* [template-helpers](https://www.npmjs.com/package/template-helpers): Generic JavaScript helpers that can be used with any template engine. Handlebars, Lo-Dash, Underscore, or… [more](https://github.com/jonschlinkert/template-helpers) | [homepage](https://github.com/jonschlinkert/template-helpers "Generic JavaScript helpers that can be used with any template engine. Handlebars, Lo-Dash, Underscore, or any engine that supports helper functions.")
-* [utils](https://www.npmjs.com/package/utils): Fast, generic JavaScript/node.js utility functions. | [homepage](https://github.com/jonschlinkert/utils "Fast, generic JavaScript/node.js utility functions.")
+* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects… [more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble)
+* [template-helpers](https://www.npmjs.com/package/template-helpers): Generic JavaScript helpers that can be used with any template engine. Handlebars, Lo-Dash, Underscore, or… [more](https://github.com/jonschlinkert/template-helpers) | [homepage](https://github.com/jonschlinkert/template-helpers)
+* [utils](https://www.npmjs.com/package/utils): Fast, generic JavaScript/node.js utility functions. | [homepage](https://github.com/jonschlinkert/utils)
 
 ### Contributing
 
@@ -3269,8 +3241,8 @@ $ npm install && npm test
 
 **Jon Schlinkert**
 
-* [github/jonschlinkert](https://github.com/jonschlinkert)
-* [twitter/jonschlinkert](https://twitter.com/jonschlinkert)
++ [github/jonschlinkert](https://github.com/jonschlinkert)
++ [twitter/jonschlinkert](https://twitter.com/jonschlinkert)
 
 ### License
 
