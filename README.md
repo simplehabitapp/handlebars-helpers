@@ -94,7 +94,6 @@ Currently **189 helpers** in **20 categories**:
 * **[misc](#misc)** ([code](lib/misc.js) | [unit tests](test/misc.js))
 * **[number](#number)** ([code](lib/number.js) | [unit tests](test/number.js))
 * **[object](#object)** ([code](lib/object.js) | [unit tests](test/object.js))
-* **[path](#path)** ([code](lib/path.js) | [unit tests](test/path.js))
 * **[regex](#regex)** ([code](lib/regex.js) | [unit tests](test/regex.js))
 * **[string](#string)** ([code](lib/string.js) | [unit tests](test/string.js))
 * **[url](#url)** ([code](lib/url.js) | [unit tests](test/url.js))
